@@ -1,0 +1,9 @@
+agent:
+  step_limit: 6
+model:
+  model_kwargs:
+    temperature: 0
+    max_tokens: 4096
+    extra_body:
+      thinking:
+        type: disabled

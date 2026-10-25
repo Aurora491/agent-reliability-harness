@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: pytest -q
+      - name: Audit public repository tree
+        run: python scripts/public_repo_audit.py
+      - name: Crash and resume demo
+        run: python scripts/recovery_demo.py --output results/demo-ci
+      - name: Verify demo trace
+        run: arh verify-trace results/demo-ci/state/traces/crash-recovery-demo.jsonl
+      - name: Runtime fault benchmark
+        run: python scripts/fault_benchmark.py --tasks 100 --output results/fault-benchmark-ci.json
+      - uses: actions/upload-artifact@v6
+        with:
+          name: reliability-artifacts-py${{ matrix.python-version }}
+          path: |
+            results/fault-benchmark-ci.json
+            results/demo-ci/summary.json
+            results/demo-ci/state/traces/crash-recovery-demo.jsonl

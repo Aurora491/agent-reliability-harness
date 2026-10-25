@@ -1,0 +1,854 @@
+{
+  "tasks": [
+    {
+      "task_id": "mbpp-1",
+      "prompt": "Write a function to find the minimum cost path to reach (m, n) from (0, 0) for the given cost matrix cost[][] and a position (m, n) in cost[][].\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-1",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "1"
+      }
+    },
+    {
+      "task_id": "mbpp-2",
+      "prompt": "Write a function to find the similar elements from the given two tuple lists.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-2",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "2"
+      }
+    },
+    {
+      "task_id": "mbpp-3",
+      "prompt": "Write a python function to identify non-prime numbers.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-3",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "3"
+      }
+    },
+    {
+      "task_id": "mbpp-4",
+      "prompt": "Write a function to find the largest integers from a given list of numbers using heap queue algorithm.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-4",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "4"
+      }
+    },
+    {
+      "task_id": "mbpp-5",
+      "prompt": "Write a function to find the number of ways to fill it with 2 x 1 dominoes for the given 3 x n board.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-5",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "5"
+      }
+    },
+    {
+      "task_id": "mbpp-6",
+      "prompt": "Write a python function to check whether the two numbers differ at one bit position only or not.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-6",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "6"
+      }
+    },
+    {
+      "task_id": "mbpp-7",
+      "prompt": "Write a function to find all words which are at least 4 characters long in a string by using regex.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-7",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "7"
+      }
+    },
+    {
+      "task_id": "mbpp-8",
+      "prompt": "Write a function to find squares of individual elements in a list using lambda function.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-8",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "8"
+      }
+    },
+    {
+      "task_id": "mbpp-9",
+      "prompt": "Write a python function to find the minimum number of rotations required to get the same string.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-9",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "9"
+      }
+    },
+    {
+      "task_id": "mbpp-10",
+      "prompt": "Write a function to get the n smallest items from a dataset.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-10",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "10"
+      }
+    },
+    {
+      "task_id": "mbpp-11",
+      "prompt": "Write a python function to remove first and last occurrence of a given character from the string.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-11",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "11"
+      }
+    },
+    {
+      "task_id": "mbpp-12",
+      "prompt": "Write a function to sort a given matrix in ascending order according to the sum of its rows.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-12",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "12"
+      }
+    },
+    {
+      "task_id": "mbpp-13",
+      "prompt": "Write a function to count the most common words in a dictionary.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-13",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "13"
+      }
+    },
+    {
+      "task_id": "mbpp-14",
+      "prompt": "Write a python function to find the volume of a triangular prism.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-14",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "14"
+      }
+    },
+    {
+      "task_id": "mbpp-15",
+      "prompt": "Write a function to split a string at lowercase letters.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-15",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "15"
+      }
+    },
+    {
+      "task_id": "mbpp-16",
+      "prompt": "Write a function to find sequences of lowercase letters joined with an underscore.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-16",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "16"
+      }
+    },
+    {
+      "task_id": "mbpp-17",
+      "prompt": "Write a function to find the perimeter of a square.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-17",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "17"
+      }
+    },
+    {
+      "task_id": "mbpp-18",
+      "prompt": "Write a function to remove characters from the first string which are present in the second string.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-18",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "18"
+      }
+    },
+    {
+      "task_id": "mbpp-19",
+      "prompt": "Write a function to find whether a given array of integers contains any duplicate element.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-19",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "19"
+      }
+    },
+    {
+      "task_id": "mbpp-20",
+      "prompt": "Write a function to check if the given number is woodball or not.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-20",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "20"
+      }
+    },
+    {
+      "task_id": "mbpp-21",
+      "prompt": "Write a function to find m number of multiples of n.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-21",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "21"
+      }
+    },
+    {
+      "task_id": "mbpp-22",
+      "prompt": "Write a function to find the first duplicate element in a given array of integers.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-22",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "22"
+      }
+    },
+    {
+      "task_id": "mbpp-23",
+      "prompt": "Write a python function to find the maximum sum of elements of list in a list of lists.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-23",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "23"
+      }
+    },
+    {
+      "task_id": "mbpp-24",
+      "prompt": "Write a function to convert the given binary number to its decimal equivalent.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-24",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "24"
+      }
+    },
+    {
+      "task_id": "mbpp-25",
+      "prompt": "Write a python function to find the product of non-repeated elements in a given array.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-25",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "25"
+      }
+    },
+    {
+      "task_id": "mbpp-26",
+      "prompt": "Write a function to check if the given tuple list has all k elements.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-26",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "26"
+      }
+    },
+    {
+      "task_id": "mbpp-27",
+      "prompt": "Write a python function to remove all digits from a list of strings.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-27",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "27"
+      }
+    },
+    {
+      "task_id": "mbpp-28",
+      "prompt": "Write a python function to find binomial co-efficient.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-28",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "28"
+      }
+    },
+    {
+      "task_id": "mbpp-29",
+      "prompt": "Write a python function to find the element occurring odd number of times.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-29",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "29"
+      }
+    },
+    {
+      "task_id": "mbpp-30",
+      "prompt": "Write a python function to count all the substrings starting and ending with same characters.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-30",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "30"
+      }
+    },
+    {
+      "task_id": "mbpp-31",
+      "prompt": "Write a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-31",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "31"
+      }
+    },
+    {
+      "task_id": "mbpp-32",
+      "prompt": "Write a python function to find the largest prime factor of a given number.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-32",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "32"
+      }
+    },
+    {
+      "task_id": "mbpp-33",
+      "prompt": "Write a python function to convert a decimal number to binary number.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-33",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "33"
+      }
+    },
+    {
+      "task_id": "mbpp-34",
+      "prompt": "Write a python function to find the missing number in a sorted array.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-34",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "34"
+      }
+    },
+    {
+      "task_id": "mbpp-35",
+      "prompt": "Write a function to find the n-th rectangular number.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-35",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "35"
+      }
+    },
+    {
+      "task_id": "mbpp-36",
+      "prompt": "Write a python function to find the nth digit in the proper fraction of two given numbers.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-36",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "36"
+      }
+    },
+    {
+      "task_id": "mbpp-37",
+      "prompt": "Write a function to sort a given mixed list of integers and strings.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-37",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "37"
+      }
+    },
+    {
+      "task_id": "mbpp-38",
+      "prompt": "Write a function to find the division of first even and odd number of a given list.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-38",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "38"
+      }
+    },
+    {
+      "task_id": "mbpp-39",
+      "prompt": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-39",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "39"
+      }
+    },
+    {
+      "task_id": "mbpp-40",
+      "prompt": "Write a function to find frequency of the elements in a given list of lists using collections module.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-40",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "40"
+      }
+    },
+    {
+      "task_id": "mbpp-41",
+      "prompt": "Write a function to filter even numbers using lambda function.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-41",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "41"
+      }
+    },
+    {
+      "task_id": "mbpp-42",
+      "prompt": "Write a python function to find the sum of repeated elements in a given array.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-42",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "42"
+      }
+    },
+    {
+      "task_id": "mbpp-43",
+      "prompt": "Write a function to find sequences of lowercase letters joined with an underscore using regex.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-43",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "43"
+      }
+    },
+    {
+      "task_id": "mbpp-44",
+      "prompt": "Write a function that matches a word at the beginning of a string.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-44",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "44"
+      }
+    },
+    {
+      "task_id": "mbpp-45",
+      "prompt": "Write a function to find the gcd of the given array elements.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-45",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "45"
+      }
+    },
+    {
+      "task_id": "mbpp-46",
+      "prompt": "Write a python function to determine whether all the numbers are different from each other are not.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-46",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "46"
+      }
+    },
+    {
+      "task_id": "mbpp-47",
+      "prompt": "Write a python function to find the last digit when factorial of a divides factorial of b.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-47",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "47"
+      }
+    },
+    {
+      "task_id": "mbpp-48",
+      "prompt": "Write a python function to set all odd bits of a given number.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-48",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "48"
+      }
+    },
+    {
+      "task_id": "mbpp-49",
+      "prompt": "Write a function to extract every first or specified element from a given two-dimensional list.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-49",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "49"
+      }
+    },
+    {
+      "task_id": "mbpp-50",
+      "prompt": "Write a function to find the list with minimum length using lambda function.\nImplement the solution in solution.py. Run the tests and make the smallest correct change.",
+      "workspace": "benchmark/mbpp/mbpp-50",
+      "verify_command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "max_attempts": 2,
+      "timeout_seconds": 300,
+      "metadata": {
+        "source": "MBPP",
+        "source_task_id": "50"
+      }
+    }
+  ]
+}

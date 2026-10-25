@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "fault": "first_attempt_agent_process_crash_every_5_tasks",
+  "baseline": {
+    "tasks": 1000,
+    "injected_faults": 200,
+    "completed": 800,
+    "completion_rate": 0.8,
+    "duplicate_effects": 0,
+    "mean_ms": 1.0997681349981576,
+    "p95_ms": 1.8844603968318552
+  },
+  "hardened": {
+    "tasks": 1000,
+    "injected_faults": 200,
+    "completed": 1000,
+    "completion_rate": 1.0,
+    "duplicate_effects": 0,
+    "mean_ms": 0.871932752779685,
+    "p95_ms": 1.3177440618164837
+  }
+}

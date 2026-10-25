@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-reliability-harness"
+version = "0.1.0"
+description = "Crash-safe runtime, fault injection, and reproducible evaluation for coding agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Liu Jiaxin"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8"]
+deepseek = ["openai>=1.50"]
+
+[project.scripts]
+arh = "agent_harness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["benchmark"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

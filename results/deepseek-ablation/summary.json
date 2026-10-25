@@ -1,0 +1,1089 @@
+{
+  "model": "deepseek/deepseek-flash",
+  "thinking": "disabled",
+  "temperature": 0,
+  "step_limit": 6,
+  "per_attempt_cost_limit_usd": 0.08,
+  "budget_usd": 6.0,
+  "pricing_assumption": "peak deepseek-flash, cache-miss input $0.30/1M, output $1.20/1M",
+  "estimated_peak_usd": 0.399962,
+  "stopped": null,
+  "baseline": {
+    "tasks": 50,
+    "completed": 45,
+    "completion_rate": 0.9,
+    "first_attempt_passes": 45,
+    "recovered_after_retry": 0,
+    "mean_attempts": 1.0,
+    "prompt_tokens": 485260,
+    "completion_tokens": 34709,
+    "tokens": 519969,
+    "reported_cost_usd": 0.074336,
+    "estimated_peak_usd": 0.187228
+  },
+  "hardened": {
+    "tasks": 50,
+    "completed": 49,
+    "completion_rate": 0.98,
+    "first_attempt_passes": 45,
+    "recovered_after_retry": 4,
+    "mean_attempts": 1.1,
+    "prompt_tokens": 556078,
+    "completion_tokens": 38258,
+    "tokens": 594336,
+    "reported_cost_usd": 0.072216,
+    "estimated_peak_usd": 0.212734
+  },
+  "per_task": [
+    {
+      "task_id": "mbpp-1",
+      "baseline": {
+        "status": "failed",
+        "attempts": 1,
+        "prompt_tokens": 10484,
+        "completion_tokens": 896,
+        "tokens": 11380,
+        "reported_cost_usd": 0.001549,
+        "estimated_peak_usd": 0.00422
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 2,
+        "prompt_tokens": 22004,
+        "completion_tokens": 1957,
+        "tokens": 23961,
+        "reported_cost_usd": 0.003606,
+        "estimated_peak_usd": 0.00895
+      }
+    },
+    {
+      "task_id": "mbpp-2",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9446,
+        "completion_tokens": 613,
+        "tokens": 10059,
+        "reported_cost_usd": 0.001349,
+        "estimated_peak_usd": 0.003569
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9593,
+        "completion_tokens": 627,
+        "tokens": 10220,
+        "reported_cost_usd": 0.001184,
+        "estimated_peak_usd": 0.00363
+      }
+    },
+    {
+      "task_id": "mbpp-3",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9186,
+        "completion_tokens": 609,
+        "tokens": 9795,
+        "reported_cost_usd": 0.001342,
+        "estimated_peak_usd": 0.003487
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9326,
+        "completion_tokens": 609,
+        "tokens": 9935,
+        "reported_cost_usd": 0.00112,
+        "estimated_peak_usd": 0.003529
+      }
+    },
+    {
+      "task_id": "mbpp-4",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9867,
+        "completion_tokens": 729,
+        "tokens": 10596,
+        "reported_cost_usd": 0.001539,
+        "estimated_peak_usd": 0.003835
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9724,
+        "completion_tokens": 640,
+        "tokens": 10364,
+        "reported_cost_usd": 0.001239,
+        "estimated_peak_usd": 0.003685
+      }
+    },
+    {
+      "task_id": "mbpp-5",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9878,
+        "completion_tokens": 741,
+        "tokens": 10619,
+        "reported_cost_usd": 0.001557,
+        "estimated_peak_usd": 0.003853
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10022,
+        "completion_tokens": 746,
+        "tokens": 10768,
+        "reported_cost_usd": 0.001343,
+        "estimated_peak_usd": 0.003902
+      }
+    },
+    {
+      "task_id": "mbpp-6",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9513,
+        "completion_tokens": 653,
+        "tokens": 10166,
+        "reported_cost_usd": 0.001417,
+        "estimated_peak_usd": 0.003638
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9376,
+        "completion_tokens": 581,
+        "tokens": 9957,
+        "reported_cost_usd": 0.001102,
+        "estimated_peak_usd": 0.00351
+      }
+    },
+    {
+      "task_id": "mbpp-7",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9798,
+        "completion_tokens": 617,
+        "tokens": 10415,
+        "reported_cost_usd": 0.001422,
+        "estimated_peak_usd": 0.00368
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10008,
+        "completion_tokens": 614,
+        "tokens": 10622,
+        "reported_cost_usd": 0.001218,
+        "estimated_peak_usd": 0.003739
+      }
+    },
+    {
+      "task_id": "mbpp-8",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9413,
+        "completion_tokens": 590,
+        "tokens": 10003,
+        "reported_cost_usd": 0.001349,
+        "estimated_peak_usd": 0.003532
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9494,
+        "completion_tokens": 595,
+        "tokens": 10089,
+        "reported_cost_usd": 0.001154,
+        "estimated_peak_usd": 0.003562
+      }
+    },
+    {
+      "task_id": "mbpp-9",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9400,
+        "completion_tokens": 631,
+        "tokens": 10031,
+        "reported_cost_usd": 0.001395,
+        "estimated_peak_usd": 0.003577
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9450,
+        "completion_tokens": 683,
+        "tokens": 10133,
+        "reported_cost_usd": 0.001246,
+        "estimated_peak_usd": 0.003655
+      }
+    },
+    {
+      "task_id": "mbpp-10",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9642,
+        "completion_tokens": 684,
+        "tokens": 10326,
+        "reported_cost_usd": 0.001493,
+        "estimated_peak_usd": 0.003713
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9846,
+        "completion_tokens": 684,
+        "tokens": 10530,
+        "reported_cost_usd": 0.001253,
+        "estimated_peak_usd": 0.003775
+      }
+    },
+    {
+      "task_id": "mbpp-11",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9376,
+        "completion_tokens": 753,
+        "tokens": 10129,
+        "reported_cost_usd": 0.001534,
+        "estimated_peak_usd": 0.003716
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9465,
+        "completion_tokens": 594,
+        "tokens": 10059,
+        "reported_cost_usd": 0.001144,
+        "estimated_peak_usd": 0.003552
+      }
+    },
+    {
+      "task_id": "mbpp-12",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10373,
+        "completion_tokens": 761,
+        "tokens": 11134,
+        "reported_cost_usd": 0.001617,
+        "estimated_peak_usd": 0.004025
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10434,
+        "completion_tokens": 731,
+        "tokens": 11165,
+        "reported_cost_usd": 0.001336,
+        "estimated_peak_usd": 0.004007
+      }
+    },
+    {
+      "task_id": "mbpp-13",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 13195,
+        "completion_tokens": 1152,
+        "tokens": 14347,
+        "reported_cost_usd": 0.002293,
+        "estimated_peak_usd": 0.005341
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 2,
+        "prompt_tokens": 27818,
+        "completion_tokens": 1930,
+        "tokens": 29748,
+        "reported_cost_usd": 0.004001,
+        "estimated_peak_usd": 0.010661
+      }
+    },
+    {
+      "task_id": "mbpp-14",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9282,
+        "completion_tokens": 595,
+        "tokens": 9877,
+        "reported_cost_usd": 0.001316,
+        "estimated_peak_usd": 0.003499
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9403,
+        "completion_tokens": 609,
+        "tokens": 10012,
+        "reported_cost_usd": 0.001143,
+        "estimated_peak_usd": 0.003552
+      }
+    },
+    {
+      "task_id": "mbpp-15",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10684,
+        "completion_tokens": 992,
+        "tokens": 11676,
+        "reported_cost_usd": 0.001912,
+        "estimated_peak_usd": 0.004396
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10620,
+        "completion_tokens": 676,
+        "tokens": 11296,
+        "reported_cost_usd": 0.001325,
+        "estimated_peak_usd": 0.003997
+      }
+    },
+    {
+      "task_id": "mbpp-16",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9344,
+        "completion_tokens": 564,
+        "tokens": 9908,
+        "reported_cost_usd": 0.001297,
+        "estimated_peak_usd": 0.00348
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9731,
+        "completion_tokens": 865,
+        "tokens": 10596,
+        "reported_cost_usd": 0.001474,
+        "estimated_peak_usd": 0.003957
+      }
+    },
+    {
+      "task_id": "mbpp-17",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 8970,
+        "completion_tokens": 539,
+        "tokens": 9509,
+        "reported_cost_usd": 0.001306,
+        "estimated_peak_usd": 0.003338
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 8987,
+        "completion_tokens": 408,
+        "tokens": 9395,
+        "reported_cost_usd": 0.00089,
+        "estimated_peak_usd": 0.003186
+      }
+    },
+    {
+      "task_id": "mbpp-18",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9434,
+        "completion_tokens": 441,
+        "tokens": 9875,
+        "reported_cost_usd": 0.001177,
+        "estimated_peak_usd": 0.003359
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9511,
+        "completion_tokens": 603,
+        "tokens": 10114,
+        "reported_cost_usd": 0.001131,
+        "estimated_peak_usd": 0.003577
+      }
+    },
+    {
+      "task_id": "mbpp-19",
+      "baseline": {
+        "status": "failed",
+        "attempts": 1,
+        "prompt_tokens": 9420,
+        "completion_tokens": 566,
+        "tokens": 9986,
+        "reported_cost_usd": 0.001285,
+        "estimated_peak_usd": 0.003505
+      },
+      "hardened": {
+        "status": "failed",
+        "attempts": 2,
+        "prompt_tokens": 23151,
+        "completion_tokens": 1233,
+        "tokens": 24384,
+        "reported_cost_usd": 0.00278,
+        "estimated_peak_usd": 0.008425
+      }
+    },
+    {
+      "task_id": "mbpp-20",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9615,
+        "completion_tokens": 750,
+        "tokens": 10365,
+        "reported_cost_usd": 0.001828,
+        "estimated_peak_usd": 0.003784
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9652,
+        "completion_tokens": 744,
+        "tokens": 10396,
+        "reported_cost_usd": 0.001342,
+        "estimated_peak_usd": 0.003788
+      }
+    },
+    {
+      "task_id": "mbpp-21",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9190,
+        "completion_tokens": 544,
+        "tokens": 9734,
+        "reported_cost_usd": 0.001302,
+        "estimated_peak_usd": 0.00341
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9124,
+        "completion_tokens": 498,
+        "tokens": 9622,
+        "reported_cost_usd": 0.001039,
+        "estimated_peak_usd": 0.003335
+      }
+    },
+    {
+      "task_id": "mbpp-22",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9367,
+        "completion_tokens": 589,
+        "tokens": 9956,
+        "reported_cost_usd": 0.001334,
+        "estimated_peak_usd": 0.003517
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9328,
+        "completion_tokens": 585,
+        "tokens": 9913,
+        "reported_cost_usd": 0.00113,
+        "estimated_peak_usd": 0.0035
+      }
+    },
+    {
+      "task_id": "mbpp-23",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9714,
+        "completion_tokens": 695,
+        "tokens": 10409,
+        "reported_cost_usd": 0.001453,
+        "estimated_peak_usd": 0.003748
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9760,
+        "completion_tokens": 641,
+        "tokens": 10401,
+        "reported_cost_usd": 0.001176,
+        "estimated_peak_usd": 0.003697
+      }
+    },
+    {
+      "task_id": "mbpp-24",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9137,
+        "completion_tokens": 556,
+        "tokens": 9693,
+        "reported_cost_usd": 0.001301,
+        "estimated_peak_usd": 0.003408
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9075,
+        "completion_tokens": 507,
+        "tokens": 9582,
+        "reported_cost_usd": 0.001035,
+        "estimated_peak_usd": 0.003331
+      }
+    },
+    {
+      "task_id": "mbpp-25",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9119,
+        "completion_tokens": 564,
+        "tokens": 9683,
+        "reported_cost_usd": 0.001343,
+        "estimated_peak_usd": 0.003412
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9259,
+        "completion_tokens": 557,
+        "tokens": 9816,
+        "reported_cost_usd": 0.001075,
+        "estimated_peak_usd": 0.003446
+      }
+    },
+    {
+      "task_id": "mbpp-26",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9299,
+        "completion_tokens": 589,
+        "tokens": 9888,
+        "reported_cost_usd": 0.001351,
+        "estimated_peak_usd": 0.003497
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9656,
+        "completion_tokens": 657,
+        "tokens": 10313,
+        "reported_cost_usd": 0.001201,
+        "estimated_peak_usd": 0.003685
+      }
+    },
+    {
+      "task_id": "mbpp-27",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9702,
+        "completion_tokens": 580,
+        "tokens": 10282,
+        "reported_cost_usd": 0.001349,
+        "estimated_peak_usd": 0.003607
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9823,
+        "completion_tokens": 577,
+        "tokens": 10400,
+        "reported_cost_usd": 0.001156,
+        "estimated_peak_usd": 0.003639
+      }
+    },
+    {
+      "task_id": "mbpp-28",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9371,
+        "completion_tokens": 670,
+        "tokens": 10041,
+        "reported_cost_usd": 0.001395,
+        "estimated_peak_usd": 0.003615
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9451,
+        "completion_tokens": 688,
+        "tokens": 10139,
+        "reported_cost_usd": 0.001215,
+        "estimated_peak_usd": 0.003661
+      }
+    },
+    {
+      "task_id": "mbpp-29",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9757,
+        "completion_tokens": 647,
+        "tokens": 10404,
+        "reported_cost_usd": 0.001446,
+        "estimated_peak_usd": 0.003703
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9841,
+        "completion_tokens": 680,
+        "tokens": 10521,
+        "reported_cost_usd": 0.001247,
+        "estimated_peak_usd": 0.003768
+      }
+    },
+    {
+      "task_id": "mbpp-30",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9644,
+        "completion_tokens": 734,
+        "tokens": 10378,
+        "reported_cost_usd": 0.001554,
+        "estimated_peak_usd": 0.003774
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9659,
+        "completion_tokens": 675,
+        "tokens": 10334,
+        "reported_cost_usd": 0.001224,
+        "estimated_peak_usd": 0.003708
+      }
+    },
+    {
+      "task_id": "mbpp-31",
+      "baseline": {
+        "status": "failed",
+        "attempts": 1,
+        "prompt_tokens": 11251,
+        "completion_tokens": 1255,
+        "tokens": 12506,
+        "reported_cost_usd": 0.002209,
+        "estimated_peak_usd": 0.004881
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 2,
+        "prompt_tokens": 26005,
+        "completion_tokens": 2766,
+        "tokens": 28771,
+        "reported_cost_usd": 0.004573,
+        "estimated_peak_usd": 0.011121
+      }
+    },
+    {
+      "task_id": "mbpp-32",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9528,
+        "completion_tokens": 702,
+        "tokens": 10230,
+        "reported_cost_usd": 0.001481,
+        "estimated_peak_usd": 0.003701
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9549,
+        "completion_tokens": 670,
+        "tokens": 10219,
+        "reported_cost_usd": 0.001223,
+        "estimated_peak_usd": 0.003669
+      }
+    },
+    {
+      "task_id": "mbpp-33",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9337,
+        "completion_tokens": 597,
+        "tokens": 9934,
+        "reported_cost_usd": 0.001335,
+        "estimated_peak_usd": 0.003517
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9603,
+        "completion_tokens": 658,
+        "tokens": 10261,
+        "reported_cost_usd": 0.001224,
+        "estimated_peak_usd": 0.003671
+      }
+    },
+    {
+      "task_id": "mbpp-34",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10050,
+        "completion_tokens": 1103,
+        "tokens": 11153,
+        "reported_cost_usd": 0.001968,
+        "estimated_peak_usd": 0.004339
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10373,
+        "completion_tokens": 901,
+        "tokens": 11274,
+        "reported_cost_usd": 0.001559,
+        "estimated_peak_usd": 0.004193
+      }
+    },
+    {
+      "task_id": "mbpp-35",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 8992,
+        "completion_tokens": 534,
+        "tokens": 9526,
+        "reported_cost_usd": 0.001269,
+        "estimated_peak_usd": 0.003338
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9051,
+        "completion_tokens": 497,
+        "tokens": 9548,
+        "reported_cost_usd": 0.001016,
+        "estimated_peak_usd": 0.003312
+      }
+    },
+    {
+      "task_id": "mbpp-36",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9346,
+        "completion_tokens": 684,
+        "tokens": 10030,
+        "reported_cost_usd": 0.001442,
+        "estimated_peak_usd": 0.003625
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9168,
+        "completion_tokens": 482,
+        "tokens": 9650,
+        "reported_cost_usd": 0.000996,
+        "estimated_peak_usd": 0.003329
+      }
+    },
+    {
+      "task_id": "mbpp-37",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10647,
+        "completion_tokens": 682,
+        "tokens": 11329,
+        "reported_cost_usd": 0.001566,
+        "estimated_peak_usd": 0.004013
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10662,
+        "completion_tokens": 631,
+        "tokens": 11293,
+        "reported_cost_usd": 0.001246,
+        "estimated_peak_usd": 0.003956
+      }
+    },
+    {
+      "task_id": "mbpp-38",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9908,
+        "completion_tokens": 764,
+        "tokens": 10672,
+        "reported_cost_usd": 0.001556,
+        "estimated_peak_usd": 0.003889
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9838,
+        "completion_tokens": 785,
+        "tokens": 10623,
+        "reported_cost_usd": 0.001372,
+        "estimated_peak_usd": 0.003893
+      }
+    },
+    {
+      "task_id": "mbpp-39",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10113,
+        "completion_tokens": 1081,
+        "tokens": 11194,
+        "reported_cost_usd": 0.001923,
+        "estimated_peak_usd": 0.004331
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9891,
+        "completion_tokens": 751,
+        "tokens": 10642,
+        "reported_cost_usd": 0.00131,
+        "estimated_peak_usd": 0.003868
+      }
+    },
+    {
+      "task_id": "mbpp-40",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10308,
+        "completion_tokens": 792,
+        "tokens": 11100,
+        "reported_cost_usd": 0.001672,
+        "estimated_peak_usd": 0.004043
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 10410,
+        "completion_tokens": 783,
+        "tokens": 11193,
+        "reported_cost_usd": 0.001428,
+        "estimated_peak_usd": 0.004063
+      }
+    },
+    {
+      "task_id": "mbpp-41",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9574,
+        "completion_tokens": 646,
+        "tokens": 10220,
+        "reported_cost_usd": 0.001427,
+        "estimated_peak_usd": 0.003647
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9738,
+        "completion_tokens": 638,
+        "tokens": 10376,
+        "reported_cost_usd": 0.001166,
+        "estimated_peak_usd": 0.003687
+      }
+    },
+    {
+      "task_id": "mbpp-42",
+      "baseline": {
+        "status": "failed",
+        "attempts": 1,
+        "prompt_tokens": 9455,
+        "completion_tokens": 675,
+        "tokens": 10130,
+        "reported_cost_usd": 0.001426,
+        "estimated_peak_usd": 0.003647
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9747,
+        "completion_tokens": 714,
+        "tokens": 10461,
+        "reported_cost_usd": 0.001335,
+        "estimated_peak_usd": 0.003781
+      }
+    },
+    {
+      "task_id": "mbpp-43",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9395,
+        "completion_tokens": 634,
+        "tokens": 10029,
+        "reported_cost_usd": 0.001359,
+        "estimated_peak_usd": 0.003579
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9245,
+        "completion_tokens": 522,
+        "tokens": 9767,
+        "reported_cost_usd": 0.001067,
+        "estimated_peak_usd": 0.0034
+      }
+    },
+    {
+      "task_id": "mbpp-44",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9416,
+        "completion_tokens": 590,
+        "tokens": 10006,
+        "reported_cost_usd": 0.001313,
+        "estimated_peak_usd": 0.003533
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9720,
+        "completion_tokens": 705,
+        "tokens": 10425,
+        "reported_cost_usd": 0.001316,
+        "estimated_peak_usd": 0.003762
+      }
+    },
+    {
+      "task_id": "mbpp-45",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9570,
+        "completion_tokens": 613,
+        "tokens": 10183,
+        "reported_cost_usd": 0.001386,
+        "estimated_peak_usd": 0.003607
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9264,
+        "completion_tokens": 542,
+        "tokens": 9806,
+        "reported_cost_usd": 0.001059,
+        "estimated_peak_usd": 0.00343
+      }
+    },
+    {
+      "task_id": "mbpp-46",
+      "baseline": {
+        "status": "failed",
+        "attempts": 1,
+        "prompt_tokens": 9114,
+        "completion_tokens": 551,
+        "tokens": 9665,
+        "reported_cost_usd": 0.001326,
+        "estimated_peak_usd": 0.003395
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 2,
+        "prompt_tokens": 22725,
+        "completion_tokens": 1374,
+        "tokens": 24099,
+        "reported_cost_usd": 0.002934,
+        "estimated_peak_usd": 0.008466
+      }
+    },
+    {
+      "task_id": "mbpp-47",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9604,
+        "completion_tokens": 804,
+        "tokens": 10408,
+        "reported_cost_usd": 0.00155,
+        "estimated_peak_usd": 0.003846
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9345,
+        "completion_tokens": 556,
+        "tokens": 9901,
+        "reported_cost_usd": 0.001062,
+        "estimated_peak_usd": 0.003471
+      }
+    },
+    {
+      "task_id": "mbpp-48",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9685,
+        "completion_tokens": 776,
+        "tokens": 10461,
+        "reported_cost_usd": 0.001541,
+        "estimated_peak_usd": 0.003837
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9566,
+        "completion_tokens": 777,
+        "tokens": 10343,
+        "reported_cost_usd": 0.001318,
+        "estimated_peak_usd": 0.003802
+      }
+    },
+    {
+      "task_id": "mbpp-49",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9647,
+        "completion_tokens": 610,
+        "tokens": 10257,
+        "reported_cost_usd": 0.001406,
+        "estimated_peak_usd": 0.003626
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9950,
+        "completion_tokens": 678,
+        "tokens": 10628,
+        "reported_cost_usd": 0.001277,
+        "estimated_peak_usd": 0.003799
+      }
+    },
+    {
+      "task_id": "mbpp-50",
+      "baseline": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9700,
+        "completion_tokens": 572,
+        "tokens": 10272,
+        "reported_cost_usd": 0.001376,
+        "estimated_peak_usd": 0.003596
+      },
+      "hardened": {
+        "status": "completed",
+        "attempts": 1,
+        "prompt_tokens": 9637,
+        "completion_tokens": 634,
+        "tokens": 10271,
+        "reported_cost_usd": 0.001206,
+        "estimated_peak_usd": 0.003652
+      }
+    }
+  ]
+}
